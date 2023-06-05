@@ -1,0 +1,61 @@
+.Secondlastimg {
+  width: 100%;
+  height: 70vh;
+  position: relative;
+}
+.Secondlastimg img {
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+  filter: brightness(0.4);
+  filter: blur(2px);
+}
+.Secondlasttext {
+  position: absolute;
+  width: 100%;
+  top: 30vh;
+  text-align: center;
+}
+.Secondlasttext i {
+  margin: auto;
+  color: white;
+  font-weight: 400;
+  font-size: 30px;
+}
+.Secondlasttext h2 {
+  width: 50vw;
+  margin: auto;
+  color: white;
+  font-weight: 400;
+}
+.Secondlasttext p {
+  width: 50vw;
+  margin: auto;
+  margin-top: 5vh;
+  color: rgb(130, 129, 129);
+  font-weight: 400;
+}
+.Secondlasttext {
+  animation-name: example7;
+  animation-duration: 4s;
+  animation-delay: 4s;
+  animation-direction: reverse;
+}
+@keyframes example7 {
+  0% {
+    bottom: 0;
+    top: 0px;
+  }
+  50% {
+    bottom: 500px;
+    top: 0;
+  }
+  75% {
+    bottom: 200px;
+    top: 150px;
+  }
+  100% {
+    bottom: 0px;
+    top: 160px;
+  }
+}

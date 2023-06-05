@@ -1,0 +1,113 @@
+.Navbarmain {
+  top: 0px;
+  position: fixed;
+}
+.Navbarmain .Stimulus {
+  margin: 20px 10vw;
+  font-size: 22px;
+  color: black;
+  font-weight: 600;
+}
+.ullist {
+  display: flex;
+  width: auto;
+  list-style: none;
+  gap: 25px;
+  font-size: 15px;
+  justify-content: end;
+}
+.elementlist {
+  width: 100%;
+  margin: 30px 10vw;
+}
+.Navbarmain .elementlist a {
+  color: black;
+  font-size: 16px;
+}
+.NavbarPhotos {
+  display: flex;
+  position: relative;
+}
+.NavbarPhotos div img {
+  width: 50vw;
+  height: 90vh;
+}
+.NavbarPhotos .Navbartext {
+  width: 100%;
+  background-color: rgb(251, 232, 235);
+}
+.NavbarPhotos .Navbartext .alltext {
+  margin-top: 25vh;
+  width: 100%;
+  height: auto;
+}
+.NavbarPhotos .Navbartext .alltext h6 {
+  font-size: 14px;
+  color: rgb(85, 83, 83);
+  font-weight: 400;
+  margin-left: 3vw;
+}
+.NavbarPhotos .Navbartext .alltext h1 {
+  color: black;
+  font-size: 35px;
+  font-weight: 400;
+  width: 40vw;
+  font-weight: 400;
+  margin: 2vh 3vw;
+  color: rgb(85, 83, 83);
+}
+.NavbarPhotos .Navbartext .alltext h1 span {
+  font-weight: 600;
+  color: black;
+}
+.NavbarPhotos .Navbartext .alltext p {
+  color: black;
+  font-weight: 400;
+  width: 40vw;
+  font-weight: 400;
+  margin: 5vh 3vw;
+  color: rgb(85, 83, 83);
+}
+.NavbarPhotos .Navbartext .alltext button {
+  background-color: rgb(251, 232, 235);
+  color: black;
+  margin-left: 3vw;
+  border-radius: 20px 20px;
+  width: 9vw;
+  height: 5vh;
+}
+.NavbarPhotos .Navbartext .alltext button:hover {
+  background-color: rgb(255, 215, 36);
+  border-color: rgb(255, 215, 36);
+  color: white;
+}
+.elementlist .ullist a li:hover {
+  color: rgb(255, 215, 36);
+}
+.Navbartext .alltext {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 4s;
+  animation-direction: reverse;
+}
+@keyframes example {
+  0% {
+    bottom: 0;
+    top: 0px;
+  }
+  50% {
+    bottom: 150;
+    top: 0;
+  }
+  75% {
+    bottom: 0px;
+    top: 150px;
+  }
+  100% {
+    bottom: 0px;
+    top: 150px;
+  }
+}
